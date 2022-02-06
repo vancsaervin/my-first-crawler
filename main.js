@@ -19,7 +19,7 @@ Apify.main(async () => {
         requestQueue,
         minConcurrency: 10,
         maxConcurrency: 50,
-        maxRequestsPerCrawl: 10,
+        maxRequestsPerCrawl: 3,
         maxRequestRetries: 1,
         handlePageTimeoutSecs: 30,
         handlePageFunction: async (context) => {
