@@ -1,0 +1,7 @@
+{
+	"name": "my-first-crawler",
+	"version": "0.0",
+	"buildTag": "latest",
+	"env": null,
+	"template": "project_empty"
+}
